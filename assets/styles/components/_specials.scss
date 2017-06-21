@@ -15,11 +15,4 @@ $hr-break-symbols-font-size: 1.5em !default;
 @import 'variables/specials';
 
 // Add custom SCSS below these imports and includes.
-@import 'components/specials/columns';
-@import 'components/specials/dropcaps';
-@import 'components/specials/floats';
-@import 'components/specials/footnotes';
-@import 'components/specials/miscellaneous';
-@import 'components/specials/pullquotes';
-@import 'components/specials/separators';
-@import 'components/specials/textboxes';
+@import 'components/specials';
