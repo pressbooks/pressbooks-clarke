@@ -9,7 +9,7 @@ Named after Arthur C. Clarke, this is a simple book theme, with some light moder
 * PHP >= 5.6
 * WordPress >= 4.8.0
 * Pressbooks >= 4.0.0
-* Pressbooks Book >= 1.7.0
+* Pressbooks Book >= 1.9.0
 
 ## Installation
 
