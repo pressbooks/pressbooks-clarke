@@ -26,33 +26,17 @@
 
 // Section title wrap
 
-$section-title-block-margin-top:(
-  epub: 0,
-  prince: 0,
-  web: 3em
-) !default;
-$section-title-block-margin-bottom:(
-  epub: 4em,
-  prince: 2cm,
-  web: 2em
-) !default;
+$section-title-block-margin-top: (epub: 0, prince: 0, web: 3em) !default;
+$section-title-block-margin-bottom: (epub: 4em, prince: 2cm, web: 2em) !default;
 // $section-title-block-margin-left: 0 !default;
 // $section-title-block-margin-right: 0 !default;
 //
 // // Section title
 //
 // $section-title-margin-top: 0;
-$section-title-margin-bottom:(
-  epub: 2em,
-  prince: .125cm,
-  web: 2em
-) !default;
+$section-title-margin-bottom: (epub: 2em, prince: 0.125cm, web: 2em) !default;
 // $section-title-font-family: $font-2 !default;
-$section-title-font-size:(
-  epub: 1.33em,
-  prince: 1.33em,
-  web: 2em
-) !default;
+$section-title-font-size: (epub: 1.33em, prince: 1.33em, web: 2em) !default;
 // $section-title-font-style: normal !default;
 $section-title-font-weight: bold !default;
 $section-title-align: left !default;
@@ -60,17 +44,9 @@ $section-title-align: left !default;
 //
 // // Section subtitle
 //
-$section-subtitle-margin-bottom: (
-  epub: 1em,
-  prince: .125cm,
-  web: .5em
-) !default;
+$section-subtitle-margin-bottom: (epub: 1em, prince: 0.125cm, web: 0.5em) !default;
 // $section-subtitle-font-family: $font-2 !default;
-$section-subtitle-font-size: (
-  epub: 1.33em,
-  prince: 1.0833em,
-  web: 1em
-) !default;
+$section-subtitle-font-size: (epub: 1.33em, prince: 1.0833em, web: 1em) !default;
 // $section-subtitle-font-style: normal !default;
 // $section-subtitle-font-weight: normal !default;
 $section-subtitle-align: left !default;
@@ -78,17 +54,9 @@ $section-subtitle-align: left !default;
 //
 // // Section author
 //
-$section-author-margin-bottom: (
-  epub: 1.5em,
-  prince: .625cm,
-  web: .5em
-) !default;
+$section-author-margin-bottom: (epub: 1.5em, prince: 0.625cm, web: 0.5em) !default;
 // $section-author-font-family: $font-2 !default;
-$section-author-font-size: (
-  epub: .9em,
-  prince: .833em,
-  web: 1em
-) !default;
+$section-author-font-size: (epub: 0.9em, prince: 0.833em, web: 1em) !default;
 // $section-author-font-style: normal !default;
 $section-author-font-weight: bold;
 $section-author-align: left !default;
@@ -99,7 +67,7 @@ $section-author-text-transform: none !default;
 // $aphorism-font-family: $body-font-family !default;
 // $aphorism-font-size: .9em; //fixme
 $aphorism-align: center !default;
-$aphorism-cite-font-size: .875em !default;
+$aphorism-cite-font-size: 0.875em !default;
 //
 // // PARTS
 //
@@ -141,17 +109,9 @@ $part-title-text-transform: none !default;
 // // Chapter number
 //
 // $chapter-number-display: block !default;
-$chapter-number-margin-bottom: (
-  epub: 1.125em,
-  prince: .125em,
-  web: 1em
-) !default;
+$chapter-number-margin-bottom: (epub: 1.125em, prince: 0.125em, web: 1em) !default;
 // $chapter-number-font-family: $font-3 !default;
-$chapter-number-font-size:(
-  epub: 1.33em,
-  prince: 1.33em,
-  web: 1em
-) !default;
+$chapter-number-font-size: (epub: 1.33em, prince: 1.33em, web: 1em) !default;
 // $chapter-number-font-style: normal !default;
 $chapter-number-font-weight: bold !default;
 // $chapter-number-line-height: 1em !default;
@@ -198,7 +158,7 @@ $chapter-title-font-weight: bold !default;
   .part-number,
   .chapter-number,
   .chapter-title {
-    margin-top: .5cm;
+    margin-top: 0.5cm;
   }
 }
 

@@ -1,20 +1,10 @@
 // Elements
 
-
 $body-font-family: $font-1 !default;
-$body-font-size: (
-  epub: medium,
-  prince: 12pt,
-  web: 14pt
-) !default;
+$body-font-size: (epub: medium, prince: 12pt, web: 14pt) !default;
 $body-font-style: normal !default;
 $body-font-weight: normal !default;
-$body-line-height: (
-  epub: 1.4em,
-  prince: 1.2em,
-  web: 1.8em,
-) !default;
-
+$body-line-height: (epub: 1.4em, prince: 1.2em, web: 1.8em) !default;
 
 // Headings
 $hx-margin-bottom: 1.25em !default;
@@ -33,18 +23,18 @@ $h2-align: left !default;
 
 // Heading 3
 $h3-font-family: $font-2 !default;
-$h3-font-size: .83 !default;
+$h3-font-size: 0.83 !default;
 $h3-font-weight: normal !default;
 $h3-text-transform: none !default;
 
 // Heading 4
 $h4-font-family: $font-2 !default;
-$h4-font-size: .75em !default;
+$h4-font-size: 0.75em !default;
 $h4-font-weight: normal !default;
 
 // Heading 5
 $h5-font-family: $font-2 !default;
-$h5-font-size: .75em !default;
+$h5-font-size: 0.75em !default;
 
 // Heading 6
 $h6-font-family: $font-2 !default;
@@ -53,11 +43,7 @@ $h6-font-family: $font-2 !default;
 $para-indent: 2em !default;
 
 // Lists
-$ol-margin-left: (
-  epub: 2em,
-  prince: 2em,
-  web: -1em
-) !default;
+$ol-margin-left: (epub: 2em, prince: 2em, web: -1em) !default;
 
 // Cite
 $cite-font-style: italic;
@@ -79,7 +65,9 @@ ul ul ul {
   ul li li {
     list-style-image: url('../../images/epub/em-dash.png');
   }
-} @else if $type == 'prince' {
+}
+
+@else if $type == 'prince' {
   ul li li {
     list-style-image: none;
   }
@@ -93,14 +81,16 @@ ul ul ul {
   ul li li li {
     list-style-image: url('../../images/epub/asterisk.png');
   }
-} @else if $type == 'prince' {
+}
+
+@else if $type == 'prince' {
   ul li li li {
     list-style-image: none;
   }
 
   ul li li li::before {
     content: '\002A\00A0\00A0\00A0\00A0';
-    font-size: .5em;
+    font-size: 0.5em;
   }
 }
 
