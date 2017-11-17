@@ -1,7 +1,9 @@
 {
   "name": "@pressbooks/pressbooks-clarke",
-  "description": "Named after Arthur C. Clarke, this is a simple book theme, with some light modern touches. Good for fiction and non-fiction. Body font is Times New Roman; headers Helvetica.",
+  "description":
+    "Named after Arthur C. Clarke, this is a simple book theme, with some light modern touches. Good for fiction and non-fiction. Body font is Times New Roman; headers Helvetica.",
   "author": "Pressbooks (Book Oven Inc.)",
+  "license": "GPL-2.0+",
   "engines": {
     "node": ">= 6.9.4"
   },
@@ -9,7 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/pressbooks/pressbooks-clarke.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "buckram": "^0.1.0"
+  },
   "devDependencies": {
     "stylelint": "^7.12.0",
     "stylelint-config-standard": "^16.0.0"
@@ -22,9 +26,7 @@
       "media-feature-name-no-unknown": [
         true,
         {
-          "ignoreMediaFeatureNames": [
-            "min--moz-device-pixel-ratio"
-          ]
+          "ignoreMediaFeatureNames": ["min--moz-device-pixel-ratio"]
         }
       ],
       "property-no-unknown": [
@@ -47,11 +49,10 @@
       "selector-pseudo-element-no-unknown": [
         true,
         {
-          "ignorePseudoElements": [
-            "footnote-call"
-          ]
+          "ignorePseudoElements": ["footnote-call"]
         }
-      ]
+      ],
+      "string-quotes": "single"
     }
   }
 }
