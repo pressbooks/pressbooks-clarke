@@ -1,9 +1,10 @@
 {
   "name": "@pressbooks/pressbooks-clarke",
-  "version": "2.2.0",
-  "description": "Named after Arthur C. Clarke, this is a simple book theme, with some light modern touches. Good for fiction and non-fiction. Body font is Tinos; headers Lato.",
+  "version": "2.1.1",
+  "description":
+    "Named after Arthur C. Clarke, this is a simple book theme, with some light modern touches. Good for fiction and non-fiction. Body font is Tinos; headers Lato.",
   "author": "Pressbooks (Book Oven Inc.)",
-  "license": "GPL-2.0+",
+  "license": "GPL-2.0-or-later",
   "engines": {
     "node": ">= 6.9.4"
   },
@@ -17,7 +18,8 @@
   },
   "scripts": {
     "lint": "npm run -s lint:styles",
-    "lint:styles": "node_modules/stylelint/bin/stylelint.js \"assets/styles/**/*.scss\" --syntax scss",
+    "lint:styles":
+      "node_modules/stylelint/bin/stylelint.js \"assets/styles/**/*.scss\" --syntax scss",
     "test": "npm run -s lint"
   },
   "stylelint": {
