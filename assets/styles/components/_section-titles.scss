@@ -25,12 +25,10 @@ $aphorism-cite-font-size: 0.875em !default;
 $aphorism-cite-font-variant: small-caps !default;
 $aphorism-cite-align: right !default;
 
+$part-number-margin-top: (epub: 1.125em, prince: 0.5cm, web: 1em) !default;
 $part-number-font-size: 1.33em !default;
-
 $part-number-align: left !default;
-
 $part-title-font-size: 1.75em !default;
-
 $part-title-font-weight: bold !default;
 $part-title-align: left !default;
 $part-title-text-transform: none !default;
