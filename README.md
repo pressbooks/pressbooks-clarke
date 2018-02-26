@@ -6,10 +6,10 @@ Named after Arthur C. Clarke, this is a simple book theme, with some light moder
 
 ## Requirements
 
-* PHP >= 5.6
-* WordPress >= 4.8.0
-* Pressbooks >= 4.0.0
-* Pressbooks Book >= 1.9.0
+* PHP >= 7.0
+* WordPress >= 4.9.4
+* Pressbooks >= 5.0.0
+* Pressbooks Book >= 2.0.0
 
 ## Installation
 
