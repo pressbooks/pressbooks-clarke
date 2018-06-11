@@ -1,7 +1,20 @@
 // Table of Contents
+$toc-front-matter-margin-top: (
+  epub: 0.25em,
+  prince: 0.75em
+) !default;
+$toc-left-chapter-number-after-content: ".\A0\A0\A0\A0" !default;
+$toc-back-matter-margin-top: (
+  epub: 0.25em,
+  prince: 0.75em
+) !default;
+$toc-left-right-gutter: (
+  epub: 0,
+  prince: 2.5cm
+) !default;
 
 // Override variables above this line, using the !default flag to allow further overrides.
-@import 'variables/toc';
+@import "variables/toc";
 
 // Add custom SCSS below these imports and includes.
-@import 'components/toc/left';
+@import "components/toc/left";
