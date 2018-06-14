@@ -255,6 +255,8 @@ $pre-padding-right: 0 !default;
 $pre-padding-top: 0 !default;
 
 // Sup/Sub
+$sup-sub-font-size: 0.8em !default;
+$sup-sub-line-height: 0.5em !default;
 $sub-font-style: normal !default;
 $sub-text-transform: none !default;
 $sub-font-size: $sup-sub-font-size !default;
