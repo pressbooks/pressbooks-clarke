@@ -1,9 +1,9 @@
 {
   "name": "@pressbooks/pressbooks-clarke",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "Named after Arthur C. Clarke, this is a simple book theme, with some light modern touches. Good for fiction and non-fiction. Body font is Tinos; headers Lato.",
   "author": "Pressbooks (Book Oven Inc.)",
-  "license": "GPL-2.0-or-later",
+  "license": "GPL-3.0-or-later",
   "engines": {
     "node": ">= 6.9.4"
   },
