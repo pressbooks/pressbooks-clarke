@@ -1,10 +1,15 @@
 // Colors
 
-$color-1: initial !default; // Body & standard element text.
-$color-2: initial !default; // Highlight for titles, some headings etc.
-$color-3: initial !default; // Alternate highlight (defaults to $color-1).
+$color-1: (
+  epub: initial,
+  prince: initial,
+  web: #373d3f
+) !default; // Body & standard element text.
+$color-2: $color-1 !default; // Highlight for titles, some headings etc.
+$color-3: $color-1 !default; // Alternate highlight (defaults to $color-1).
 $color-4: #eee !default; // Shading.
 $color-5: $color-4 !default; // Alternate shading.
+$color-6: $color-1;
 
 //HTML ELEMENTS COLOR
 
@@ -26,7 +31,7 @@ $h6-color: $color-3 !default;
 $table-color: $color-1 !default;
 $table-para-color: $color-1 !default;
 $shade-color-1: $color-4 !default;
-$line-color-1: black !default;
+$line-color-1: $color-3 !default;
 
 //INDEX PARA COLOR
 
