@@ -8,8 +8,8 @@ Named after Arthur C. Clarke, this is a simple book theme, with some light moder
 
 * PHP >= 7.1
 * WordPress >= 5.2.4
-* Pressbooks >= 5.9.5
-* McLuhan >= 2.8.12
+* Pressbooks >= 5.10.0
+* McLuhan >= 2.8.13
 
 ## Installation
 
@@ -33,7 +33,7 @@ Then, from the GitHub Updater interface, navigate to the "Install Theme" tab. En
 
 ## Changelog
 
-### 2.3.2
+### 2.3.3
 
-* See: https://github.com/pressbooks/pressbooks-clarke/releases/tag/2.3.2
+* See: https://github.com/pressbooks/pressbooks-clarke/releases/tag/2.3.3
 * Full release history available at: https://github.com/pressbooks/pressbooks-clarke/releases
