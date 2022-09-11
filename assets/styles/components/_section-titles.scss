@@ -1,4 +1,4 @@
-//Section Header
+// Section Header
 $section-title-block-margin-left: (
   epub: 0,
   prince: 0,
@@ -9,13 +9,12 @@ $section-title-block-margin-right: (
   prince: 0,
   web: 0
 ) !default;
-
 $section-header-margin-top: (epub: 0, prince: 0, web: 3em) !default;
 $section-header-margin-bottom: (epub: 4em, prince: 2cm, web: 2em) !default;
 $section-header-margin-left: $section-title-block-margin-left !default;
 $section-header-margin-right: $section-title-block-margin-right !default;
 
-//Section Title
+// Section Title
 $section-title-display: block !default;
 $section-title-margin-top: (epub: 0, prince: 0, web: 0) !default;
 $section-title-margin-bottom: (epub: 2em, prince: 0.125cm, web: 2em) !default;
@@ -34,16 +33,15 @@ $section-title-font-weight: bold !default;
 $section-title-align: left !default;
 $section-title-text-transform: none !default;
 $section-title-line-height: $h1-line-height !default;
-$section-title-letter-spacing: (epub: normal, prince: normal, web: normal) !default; 
-$section-title-word-spacing: (epub: normal, prince: normal, web: normal) !default; 
+$section-title-letter-spacing: (epub: normal, prince: normal, web: normal) !default;
+$section-title-word-spacing: (epub: normal, prince: normal, web: normal) !default;
 $section-title-decoration-font-family: $font-3 !default;
 $section-title-decoration-content: "" !default;
 $section-title-decoration-display: none !default;
-$section-title-decoration-font-size: (epub:  0em, prince: 0em, web: 0em) !default;
+$section-title-decoration-font-size: (epub:  0, prince: 0, web: 0) !default;
 $section-title-decoration-font-weight: normal !default;
-$section-title-decoration-margin-bottom: (epub:  0em, prince: 0em, web: 0em) !default;
-$section-title-decoration-margin-top:  (epub:  0em, prince: 0em, web: 0em) !default;
-
+$section-title-decoration-margin-bottom: (epub:  0, prince: 0, web: 0) !default;
+$section-title-decoration-margin-top: (epub:  0, prince: 0, web: 0) !default;
 $section-subtitle-margin-bottom: (epub: 1em, prince: 0.125cm, web: 0.5em) !default;
 $section-subtitle-author-spacing: (epub: 1em, prince: 0.125cm, web: 0.5em) !default;
 $section-subtitle-font-family: $font-2 !default;
@@ -54,7 +52,6 @@ $section-subtitle-align: left !default;
 $section-subtitle-text-transform: none !default;
 $section-subtitle-letter-spacing: $section-title-letter-spacing !default;
 $section-subtitle-word-spacing: $section-title-word-spacing !default;
-
 $section-author-margin-bottom: (epub: 1.5em, prince: 0.625cm, web: 0.5em) !default;
 $section-author-font-family: $font-2 !default;
 $section-author-font-size: (epub: 0.9em, prince: 0.833em, web: 1em) !default;
@@ -203,7 +200,7 @@ $part-title-decoration-font-weight: $section-title-decoration-font-weight !defau
 $part-title-decoration-margin-bottom: $section-title-decoration-margin-bottom !default;
 $part-title-decoration-margin-top: $section-title-decoration-margin-top !default;
 
-// Front Matter 
+// Front Matter
 $front-matter-title-display: $section-title-display !default;
 $front-matter-title-margin-top: $section-title-margin-top !default;
 $front-matter-title-margin-bottom: $section-title-margin-bottom !default;
@@ -218,7 +215,7 @@ $front-matter-title-font-weight: $section-title-font-weight !default;
 $front-matter-title-align: $section-title-align !default;
 $front-matter-title-text-transform: $section-title-text-transform !default;
 $front-matter-title-line-height: $section-title-line-height !default;
-$front-matter-title-border-bottom-style: $section-title-border-bottom-style !default; 
+$front-matter-title-border-bottom-style: $section-title-border-bottom-style !default;
 $front-matter-title-border-bottom-width: $section-title-border-bottom-width !default;
 $front-matter-title-border-bottom-color: $section-title-border-bottom-color !default;
 $front-matter-title-padding-bottom: $section-title-padding-bottom !default;
@@ -243,7 +240,7 @@ $toc-title-font-weight: $section-title-font-weight !default;
 $toc-title-align: $section-title-align !default;
 $toc-title-text-transform: $section-title-text-transform !default;
 $toc-title-line-height: $section-title-line-height !default;
-$toc-title-border-bottom-style: $section-title-border-bottom-style !default; 
+$toc-title-border-bottom-style: $section-title-border-bottom-style !default;
 $toc-title-border-bottom-width: $section-title-border-bottom-width !default;
 $toc-title-border-bottom-color: $section-title-border-bottom-color !default;
 $toc-title-padding-bottom: $section-title-padding-bottom !default;
@@ -272,7 +269,7 @@ $chapter-number-margin-left: (
   prince: 0,
   web: 0
 ) !default;
-$chapter-number-padding-bottom:$section-title-padding-bottom !default;
+$chapter-number-padding-bottom: $section-title-padding-bottom !default;
 $chapter-number-border-bottom-width: $section-title-border-bottom-width !default;
 $chapter-number-border-bottom-style: $section-title-border-bottom-style !default;
 $chapter-number-border-bottom-color: $section-title-border-bottom-color !default;
@@ -293,7 +290,7 @@ $chapter-number-after-content: '.\00A0' !default;
 $chapter-number-letter-spacing: $section-title-letter-spacing !default;
 $chapter-number-word-spacing: $section-title-word-spacing !default;
 
-//Chapter Title
+// Chapter Title
 $chapter-title-display: $section-title-display !default;
 $chapter-title-margin-top: $section-title-margin-top !default;
 $chapter-title-margin-bottom: $section-title-margin-bottom !default;
@@ -307,11 +304,11 @@ $chapter-title-align: $section-title-align !default;
 $chapter-title-text-transform: $section-title-text-transform !default;
 $chapter-title-line-height: $section-title-line-height !default;
 $chapter-title-letter-spacing: $section-title-letter-spacing !default;
-$chapter-title-word-spacing:  $section-title-word-spacing !default;
+$chapter-title-word-spacing: $section-title-word-spacing !default;
 $chapter-title-border-bottom-width: $section-title-border-bottom-width !default;
 $chapter-title-border-bottom-style: $section-title-border-bottom-style !default;
 $chapter-title-border-bottom-color: $section-title-border-bottom-color !default;
-$chapter-title-padding-bottom:$section-title-padding-bottom !default;
+$chapter-title-padding-bottom: $section-title-padding-bottom !default;
 $chapter-title-decoration-font-family: $section-title-decoration-font-family !default;
 $chapter-title-decoration-content: $section-title-decoration-content !default;
 $chapter-title-decoration-display: $section-title-decoration-display !default;
@@ -320,7 +317,7 @@ $chapter-title-decoration-font-weight: $section-title-decoration-font-weight !de
 $chapter-title-decoration-margin-bottom: $section-title-decoration-margin-bottom !default;
 $chapter-title-decoration-margin-top: $section-title-decoration-margin-top !default;
 
-//Back Matter
+// Back Matter
 $back-matter-title-display: $section-title-display !default;
 $back-matter-title-margin-top: $section-title-margin-top !default;
 $back-matter-title-margin-bottom: $section-title-margin-bottom !default;
@@ -336,9 +333,9 @@ $back-matter-title-line-height: $section-title-line-height !default;
 $back-matter-title-border-bottom-width: $section-title-border-bottom-width !default;
 $back-matter-title-border-bottom-style: $section-title-border-bottom-style !default;
 $back-matter-title-border-bottom-color: $section-title-border-bottom-color !default;
-$back-matter-title-padding-bottom:$section-title-padding-bottom !default;
+$back-matter-title-padding-bottom: $section-title-padding-bottom !default;
 $back-matter-title-letter-spacing: $section-title-letter-spacing !default;
-$back-matter-title-word-spacing:  $section-title-word-spacing !default;
+$back-matter-title-word-spacing: $section-title-word-spacing !default;
 $back-matter-title-decoration-font-family: $section-title-decoration-font-family !default;
 $back-matter-title-decoration-content: $section-title-decoration-content !default;
 $back-matter-title-decoration-display: $section-title-decoration-display !default;
