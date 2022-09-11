@@ -132,7 +132,7 @@ $para-loose-word-spacing: 0.075em !default;
 $para-very-loose-letter-spacing: 0.5px !default;
 $para-very-loose-word-spacing: 0.09em !default;
 
-//BLOCKQUOTES
+// BLOCKQUOTES
 $blockquote-font-family: $font-1 !default;
 $blockquote-font-size: 0.9em !default;
 $blockquote-font-style: normal !default;
@@ -142,10 +142,10 @@ $blockquote-margin-top: 1em !default;
 $blockquote-margin-right: 1em !default;
 $blockquote-margin-bottom: 1em !default;
 $blockquote-margin-left: 1em !default;
-$blockquote-padding-top: (epub: 0em, prince: 0em, web: 0) !default;
-$blockquote-padding-right: (epub: 0em, prince: 0em, web: 0) !default;
-$blockquote-padding-bottom: (epub: 0em, prince: 0em, web: 0) !default;
-$blockquote-padding-left: (epub: 0em, prince: 0em, web: 0) !default;
+$blockquote-padding-top: (epub: 0, prince: 0, web: 0) !default;
+$blockquote-padding-right: (epub: 0, prince: 0, web: 0) !default;
+$blockquote-padding-bottom: (epub: 0, prince: 0, web: 0) !default;
+$blockquote-padding-left: (epub: 0, prince: 0, web: 0) !default;
 $blockquote-align: justify !default;
 $blockquote-letter-spacing: (
   epub: normal,
@@ -157,13 +157,11 @@ $blockquote-word-spacing: (
   prince: normal,
   web: normal
 ) !default;
-$blockquote-border-left-width: (epub: 0em, prince: 0em, web: 0) !default;
+$blockquote-border-left-width: (epub: 0, prince: 0, web: 0) !default;
 $blockquote-border-left-style: none !default;
 $blockquote-border-left-color: initial !default;
 
 // Lists
-
-
 $ol-margin-top: 1em !default;
 $ol-margin-bottom: 1em !default;
 $ol-margin-left: (epub: 2em, prince: 2em, web: 0) !default;
@@ -174,7 +172,7 @@ $ul-margin-left: (epub: 2em, prince: 2em, web: 0) !default;
 $ul-padding-left: 2em !default;
 $li-li-margin-top: 0.5em !default;
 
-//Tables
+// Tables
 $table-margin-top: 1.5em !default;
 $table-margin-bottom: 1.5em !default;
 $table-font-family: $font-1 !default;

@@ -1,6 +1,6 @@
 // Structure
 
-//running content
+// Running Content
 $numbering-position: 'top-outside' !default;
 $running-content-position: 'top-outside' !default;
 $left-running-separator: '\A0\A0\A0' !default;
@@ -15,14 +15,11 @@ $front-matter-page-number-font-size: 0.75em !default;
 $front-matter-page-number-font-style: normal !default;
 $front-matter-page-number-font-weight: normal !default;
 $front-matter-page-number-text-transform: none !default;
-
 $page-number-font-family: $font-2 !default;
 $page-number-font-size: 0.9em !default;
 $page-number-font-style: normal !default;
 $page-number-font-weight: normal !default;
 $page-number-text-transform: none !default;
-
-//running content styling
 
 // Running Head Styling
 $runninghead-padding-top: 0.4in !default;
@@ -65,7 +62,6 @@ $runningfoot-right-font-weight: normal !default;
 $runningfoot-right-text-transform: uppercase !default;
 $runningfoot-right-letter-spacing: normal !default;
 $runningfoot-right-word-spacing: normal !default;
-
 $front-matter-running-content-left: string(book-author) !default;
 $front-matter-running-content-right: string(book-title) !default;
 $introduction-running-content-left: string(book-author) !default;
