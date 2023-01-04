@@ -2,9 +2,32 @@
 
 $serif-prince: serif !default;
 $sans-serif-prince: sans-serif !default;
-$font-1: 'Tinos', georgia, $serif-prince;
-$font-2: 'Lato', helvetica, arial, $sans-serif-prince;
+
+// Load Shape Shifter fonts, if any. Must come after Global Typography snippet
+@import 'shapeshifter-font-stack-prince';
+
+$shapeshifter-font-1-is-serif: true !default;
+$shapeshifter-font-2-is-serif: true !default;
+
+// Insert custom fonts for your theme into the font stacks below. Always end the
+// stack with $serif-prince or $sans-serif-prince, as appropriate—this allows
+// custom language support to be added dynamically.
+
+@if variable-exists(shapeshifter-font-1)  {
+  $font-1: $shapeshifter-font-1, if($shapeshifter-font-1-is-serif, $serif-prince, $sans-serif-prince);
+} @else {
+  $font-1: 'Tinos', georgia, $serif-prince;
+  @import 'TinosFont';
+}
+
+@if variable-exists(shapeshifter-font-2) {
+  $font-2: $shapeshifter-font-2, if($shapeshifter-font-2-is-serif, $serif-prince, $sans-serif-prince);
+} @else {
+  $font-2: 'Lato', helvetica, arial, $sans-serif-prince;
+  @import 'LatoFont';
+}
+
 $font-3: $font-2;
 
-@import 'LatoFont';
-@import 'TinosFont';
+
+
