@@ -22,7 +22,7 @@ $shapeshifter-font-2-is-serif: true !default;
 @if variable-exists(shapeshifter-font-2) {
   $font-2: $shapeshifter-font-2, if($shapeshifter-font-2-is-serif, $serif-web, $sans-serif-web);
 } @else {
-  $font-2: Helvetica, arial, $sans-serif-web;
+  $font-2: helvetica, arial, $sans-serif-web;
 }
 
 $font-3: $font-2;
