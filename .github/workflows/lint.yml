@@ -2,23 +2,9 @@ name: Lint Styles
 on:
   push:
     branches: [ dev, production ]
-    tags:
-      - '*.*.*'
   pull_request:
-    branches: [ dev ]
+    branches:
+      - dev
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node: [ '14', '16', '18' ]
-    name: Node ${{ matrix.node }}
-    steps:
-      - uses: actions/checkout@v3
-      - name: Setup node
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node }}
-      - run: npm install
-      - run: npm run install-build-tools
-      - run: npm test
+  lint:
+    uses: pressbooks/composer-autoupdate-bedrock/.github/workflows/lint-theme.yml@v1.1
